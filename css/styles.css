@@ -48,7 +48,7 @@ h1 {
 
 button {
   margin: 6px;
-  border: 1px solid transparent;
+  border: 1px solid purple;
   padding: .5rem 1rem;
   color: var(--color-keys);
   font-size: var(--font-size-medium);
@@ -58,6 +58,11 @@ button {
   -o-transition: var(--transition);
   transition: var(--transition);
   cursor: pointer;
+}
+
+.key:hover {
+  background-color: purple;
+  color: white;
 }
 
 #btn__reset {
@@ -111,7 +116,7 @@ button {
 
 .show {
   color: #fff;
-  background-color: #4ac0d5;
+  background-color: purple;
   font-size: 20px;
   height: 65px;
   width: 65px;
@@ -138,7 +143,7 @@ button {
 }
 
 .wrong {
-  background: #f7a964;
+  background: teal;
   color: #FFFFFF;
 }
 
@@ -180,7 +185,7 @@ button {
 }
 
 .start {
-  background-color: #3a3f58;
+  background-color: purple;
 }
 
 .start a {
@@ -188,7 +193,7 @@ button {
 }
 
 .win {
-  background-color: var(--color-win);
+  background-color: teal;
 }
 
 .win a {
@@ -196,7 +201,7 @@ button {
 }
 
 .lose {
-  background-color: #f5785f;
+  background-color: black;
 }
 
 .lose a {
