@@ -102,7 +102,7 @@ class Game {
 
     if (gameWon) {
       this.objects.overlay.classList.add('win');
-      this.objects.gameOverMsg.textContent = 'Woot! you guess the phrase!';
+      this.objects.gameOverMsg.textContent = 'Woot! you guessed the phrase!';
     } else {
       this.objects.overlay.classList.add('lose');
       this.objects.gameOverMsg.textContent = 'Sorry, try again.';
