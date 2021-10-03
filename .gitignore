@@ -74,3 +74,10 @@ typings/
 
 # FuseBox cache
 .fusebox/
+.idea/workspace.xml
+.idea/vcs.xml
+.idea/modules.xml
+.idea/misc.xml
+.idea/game-show-app.iml
+*.xml
+.idea/workspace.xml
