@@ -1,14 +1,23 @@
 /* Treehouse FSJS Techdegree
  * Project 4 - OOP Game App
  * app.js */
-
-const game = new Game();
 const overlay = document.getElementById('overlay');
 const btnReset = document.getElementById('btn__reset');
 const btnKey = document.querySelectorAll('.key');
 
-// Start new game
-btnReset.addEventListener('click', () => game.startGame());
+/**
+ * Resets and initializes a new game
+ */
+let game;
+
+const initNewGame = () => {
+  game = new Game();
+  game.resetGame();
+  game.startGame();
+}
+
+// Start new game event listener
+btnReset.addEventListener('click', () => initNewGame());
 
 // Handle click event for on screen keyboard
 btnKey.forEach((btn) => {

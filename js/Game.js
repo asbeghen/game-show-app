@@ -76,7 +76,7 @@ class Game {
   removeLife() {
     const count = this.missed++;
 
-    if (count === 5) {
+    if (count === 4) {
       this.gameOver(false);
     } else {
       this.objects.hearts[count].querySelector('img').src = './images/lostHeart.png';
